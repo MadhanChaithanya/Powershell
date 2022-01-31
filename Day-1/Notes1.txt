@@ -48,7 +48,33 @@ Powershell can be downloaded as a package for IOS, Linux, Solaris etc.
 		c) Run ---> Win+R  ---> Type Powershell
 		   Admin ---> 
 
+	2) Powershell ISE -20 days
 
+Command: 
+--------
+	Command:
+	----------------
+		- Alias		-> Shortcuts for Functions/cmdlet
+		- Functions	-> Ready code in .net programming languages(.Net Framework)
+		- Cmdlet	-> Command-let ==> cmdlet
+	
+	Get-command:
+	------------
+Ctrl+L
+cls
+clear-host
+clear
+#############
 
+	
+* ---> Wildcard Operator:
+-------------------------
 
+1) Find out the commands which are related to html
+	keyword: html
 
+2) Find out the commands which are realted to eventlog?
+	keyword: eventlog
+
+3) Find out the command which are related to localuser?
+	keyword: localuser
