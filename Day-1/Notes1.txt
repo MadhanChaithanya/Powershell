@@ -1,0 +1,4 @@
+Powershell:
+===========
+- Trending Scripting Langauge(Automation) & Configuration Management Tool(Ansible/Puppet/Chef) -DSC Azure_Cloud-Automation Account)
+- Command Line Shell (Commands)
