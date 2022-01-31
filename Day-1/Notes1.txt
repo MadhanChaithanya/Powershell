@@ -33,8 +33,20 @@ Powershell can be downloaded as a package for IOS, Linux, Solaris etc.
 5) It is Build on .NET Framework
 6) It is a Cross-Platform scripting language.
 
+2 Types of Interfaces (by default)
 
-
+	1) Powershell Console
+		Methods:
+		--------
+		a) Start --> type the Powershell
+				Admin
+		b) Client Machines (Windows8, 8.1, 10, 11)
+			
+			Win+X+I
+			Win+X+A --> Yes
+		
+		c) Run ---> Win+R  ---> Type Powershell
+		   Admin ---> 
 
 
 
