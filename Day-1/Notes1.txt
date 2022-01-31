@@ -12,9 +12,31 @@ v2
 v3
 v4
 v5
-	v5.1 -Stable Version in the Windos Enviroment
+	v5.1 -Stable Version in the Windows Enviroment
 --------2016 - open source
 
 v6
 v7 
 	v7.3 -2022
+
+The Person who is behind of the Powershell is "Jeffrey Snover"
+- Author, inventor
+- cloud9 channel, posting updates.
+
+Features of Powershell:
+----------------------
+1) It is native task automation Scripting language.
+2) Command Line Interface
+3) Earlier Powershell was tightly coupled with Operating System.
+4) From 2016(Aug), Windows Powershell has been declared as Open Source.
+Powershell can be downloaded as a package for IOS, Linux, Solaris etc.
+5) It is Build on .NET Framework
+6) It is a Cross-Platform scripting language.
+
+
+
+
+
+
+
+
