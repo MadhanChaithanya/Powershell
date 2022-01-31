@@ -1,0 +1,20 @@
+Powershell:
+===========
+- Trending Scripting Langauge(Automation) & Configuration Management Tool(Ansible/Puppet/Chef) -DSC Azure_Cloud-Automation Account)
+- Command Line Shell (Commands)
+
+2006-2022
+---------
+2006-2016 (2017 Jan)	: Dedicated to Windows Server/Client
+2016-2021 --> Famous	: Cross-platform
+v1
+v2
+v3
+v4
+v5
+	v5.1 -Stable Version in the Windos Enviroment
+--------2016 - open source
+
+v6
+v7 
+	v7.3 -2022
