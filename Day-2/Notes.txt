@@ -1,0 +1,91 @@
+Topic : Working with PowerShell_Commands
+
+PS E:\ > Get-command
+	#Huge list
+
+Get-command = A  (all list of services in your server/computer)
+
+Filteration with with card :
+------------------------------
+	Wildcard (*)
+
+	#Keyword : hotfix
+
+
+	Get-command     *hotfix*
+
+Commands :
+--------------
+Alias
+Functions
+cmldet (command-let)
+workflows
+
+
+1) Cmdlet :
+-----------
+	- It is a type of command of the Powershell
+	- It is a light-weight .net object
+		already small script already code is developed in the .net
+	- What it does?
+		It will perform a specific operations
+		like
+				creation a file
+				creation of user
+				deletion of a file
+				getting information of users
+
+	- Syntax of the cmdlet :
+
+
+				Verb-Noun
+				-no spaces b/w verb and noun
+				-Powershell is not a case-sensitive scripting language
+				G = 'g'
+				GET-COMMAND
+				get-command
+				GeT-CoMMMAnd
+
+				-Verb: Get/set/delete/renam/new/update
+				-Noun : service/logname/azvm/process/localuser
+
+
+
+
+
+
+1) Findout the cmdlet(command = alias/functions/cmdlet/app/workflow)
+   which are related to date
+Powershell  	 English
+
+Get-command = A (list of services)
+Get-help    = B (Help option for the commands(cmdlet))
+--------------------
+
+	PS E:\> Get-help Get-process
+
+
+	1) Prompt related to udpate the helpfile
+		Y/N/S 
+	2) Incomplete Description 
+
+	##################################################
+	3) Perfect output (like Screen)
+
+
+Solution :
+##########
+1) Lauch the Powershell Console with Admin Rights
+2) Internet Connection
+
+Get-help   : A documentation about the powershell Commands
+Powershell :
+
+
+ PS E:\ > Update-help 
+
+PS E:\ > Update-help  -ErrorAction SilentlyContinue
+PS E:\ > Update-Help  -ea SilentlyContinue
+######################################################
+udpate-help 
+7/8.1
