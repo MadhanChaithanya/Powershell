@@ -1,0 +1,225 @@
+Session-03		Date: 02-02-2022
+--------------------------------
+Topic : Basic_Filteration of the objects
+
+Session-01:
+
+			1) Get-command *keyword*  : How to start 
+				commandtype:
+				-----------
+				alias
+				functions
+				cmdlet
+
+
+			2)  Get-help <cmdlet_name> #Documentation
+				update-help -ea silentlycontinue(with Admin)
+
+				Get-help <cmdlet_name>
+				######################
+
+Status   Name               DisplayName             #Properties/Headers/Addresses
+------   ----               -----------
+Stopped  AarSvc_338b4c9     Agent Activation Runtime_338b4c9 - 1 line = 1 object
+Running  AdobeARMservice    Adobe Acrobat Update Service
+Stopped  AJRouter           AllJoyn Router Service
+Stopped  ALG                Application Layer Gateway Service
+Running  ApHidMonitorSer... Alps HID Monitor Service
+Stopped  AppIDSvc           Application Identity
+Running  Appinfo            Application Information
+Stopped  AppMgmt            Application Management
+Stopped  AppReadiness       App Readiness
+
+
+		Property Name ---> Property Value
+
+
+# Get-command *keyword*
+# Get-help <cmdlet>
+# <cmdlet>
+
+#1) Filter the objects(lines) of the Get-service cmdlet
+    Where Displayname property value of any object is starting with
+    Microsoft.
+
+a) Identify the Property Name in the given question?(in the Result)
+    Property Name: displayname
+
+b) Take the syntax help of the given cmdlet(Get-service)
+   
+   ** Is there any parameter with same name of step(1)
+   ** if  not verfity for the related name of the step(1)
+   ** Identify the input type : String datatype
+c) if (b) step is ok,
+		
+		wildcard(*) --> 3 Methods
+
+4) Get-service -Displayname
+
+
+class
+-----
+Welcome to Powershell course
+here will learn scartch
+to advanced level course
+Welcome to again here
+thank you all helloworldremote-destktopomuch you powershell 
+here all to
+
+
+
+1) Staring with keyword :   keyword*   --->Welcome*  ===> 60,63
+2) Ending with			:   *keyword  ---->*here   =====> 63
+3) containing           : *keyword* (anyhere begining/ending/middle) --> *to*
+																     60,62,63,65,64
+Get-command *service*
+
+
+
+
+
+
+
+
+Filteration :
+##############
+1) Basic                   50%    speed result
+2) Adv.Filteration        100%    Basic > Adv.Filteration(pipeline)
+
+
+Basic:
+-----
+1) Result ---> Properties  + Objects
+
+Parameters:
+-----------
+- cmdlet [ /functions/scripts] (in use)
+After the cmdlet anything starting with - parameter
+
+cmdlet -class -abc  xyz  def
+			-class
+			-abc
+- parameter having the input
+- some parameter take the input/some are not
+
+Get-school  -class 5
+Get-school -class:5
+What it does?
+-------------
+- input to the your cmdlet
+- to the filteration
+
+
+Get-school  
+############
+1000  
+
+Get-School -class 5
+###################
+100
+####################
+Get-school -class 5 -rollno 34
+-----------------------------
+
+#Result
+
+#Properties : Any cmdlet Result
+###################################
+
+
+#Parameter : Syntax ----(1)
+PS E:\> Get-service -
+
+Status 		Name ---> Properties
+
+-------      
+
+
+
+System.String = 'Naga'
+System.Int32
+System.doube
+System.int16
+System.Int64
+
+Variable&Datatypes
+
+in the Syntax,
+Cmdlet -parameter1 <System.String>
+
+Classification of the parameters:
+
+What thing we are going to conver incoming session for the parameters?
+
+		5%
+		95% --> Mandatory/Optional (Day-04/05)
+
+
+				Positional/NamedParameter
+				Note:  Functions(Adv.Param() )
+
+
+
+
+
+#2) Get-service
+  Where displayname containig 'Management'
+
+  1) What is property name in the result(question)
+  		Displayname
+  2) Go to --> Get-service
+  		Get-help Get-service
+  		is there any parameter with name of the property of the step(1)
+  							if not, check for the realted name
+  							if not , it not possible the filteration in the basic method
+3) step(2) is ok
+	identify the input type of the step(2) 
+
+	use wildcard character (if it is required)
+
+4) Frame the syntax
+
+Get-service -dispalyname *managment*	
+
+
+Get-service -name helloworld*
+
+Get-service -name 'helloworld*'
+
+Get-service -name "helloworld*"
+
+
+Get-service -name hello world*   : (x)
+
+
+Get-service -name 'hello world*'
+
+Get-service -name "hello world*"
+
+
+
+ '  '   Vs "  "  --> Scripting with variabels
+
+ Problem:
+ ---------
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
